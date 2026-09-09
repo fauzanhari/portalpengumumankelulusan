@@ -1,5 +1,11 @@
 [
-    {
+
+  {
+    "nomor_pendaftaran": "000",
+    "nama": "Zianurrachman",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
     "nomor_pendaftaran": "999",
     "nama": "fauzan hari ramdani",
     "prodi": "Teknik Informatika"
