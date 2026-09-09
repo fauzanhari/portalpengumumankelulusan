@@ -1,0 +1,37 @@
+[
+    {
+    "nomor_pendaftaran": "999",
+    "nama": "fauzan hari ramdani",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202601",
+    "nama": "Budi Santoso",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202602",
+    "nama": "Siti Aminah",
+    "prodi": "Sistem Informasi"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202604",
+    "nama": "Dewi Lestari",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202606",
+    "nama": "Nabila Putri",
+    "prodi": "Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202607",
+    "nama": "Muhammad Rizky",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "ORIMA202608",
+    "nama": "Ahmad Pratama",
+    "prodi": "Teknik Elektro"
+  }
+]
