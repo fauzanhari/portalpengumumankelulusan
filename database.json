@@ -1,5 +1,25 @@
 [
   {
+    "nomor_pendaftaran": "114",
+    "nama": "Kiki Amalia",
+    "prodi": "Ekonomi dan Bisnis"
+  },
+  {
+    "nomor_pendaftaran": "195",
+    "nama": "Syifa Fajrina",
+    "prodi": "Keguruan dan Ilmu Pendidikan"
+  },
+  {
+    "nomor_pendaftaran": "503",
+    "nama": "DINA MAWADDITA",
+    "prodi": "Hukum, Ilmu Sosial, dan Ilmu Politik"
+  },
+  {
+    "nomor_pendaftaran": "434",
+    "nama": "Desky Amellia Safitri",
+    "prodi": "Hukum, Ilmu Sosial, dan Ilmu Politik"
+  },
+  {
     "nomor_pendaftaran": "000",
     "nama": "Zianurrachman",
     "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
@@ -12,7 +32,7 @@
 
   {
     "nomor_pendaftaran": "000",
-    "nama": "salsabila aulia ",
+    "nama": "salsabila aulia",
     "prodi": "Ilmu Hukum"
   },
 
@@ -22,33 +42,1498 @@
     "prodi": "Pendidikan Bahasa Inggris"
   },
   {
-    "nomor_pendaftaran": "ORIMA202601",
-    "nama": "Budi Santoso",
+    "nomor_pendaftaran": "576",
+    "nama": "Lalu Muhammad Naufal Arrasyid",
+    "prodi": "S-1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "178",
+    "nama": "M. Rizky Meidayani Putra",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "205",
+    "nama": "Andre Astamam",
     "prodi": "Teknik Informatika"
   },
   {
-    "nomor_pendaftaran": "ORIMA202602",
-    "nama": "Siti Aminah",
-    "prodi": "Sistem Informasi"
+    "nomor_pendaftaran": "365",
+    "nama": "Muhammad Bao Gunawan",
+    "prodi": "Ilmu Komunikasi"
   },
   {
-    "nomor_pendaftaran": "ORIMA202604",
-    "nama": "Dewi Lestari",
-    "prodi": "Farmasi"
+    "nomor_pendaftaran": "457",
+    "nama": "Muhammad Aril Sigit",
+    "prodi": "Agribisnis"
   },
   {
-    "nomor_pendaftaran": "ORIMA202606",
-    "nama": "Nabila Putri",
-    "prodi": "Akuntansi"
+    "nomor_pendaftaran": "340",
+    "nama": "Egi Indra Pratama",
+    "prodi": "Teknik Mesin"
   },
   {
-    "nomor_pendaftaran": "ORIMA202607",
-    "nama": "Muhammad Rizky",
+    "nomor_pendaftaran": "038",
+    "nama": "Nova Adrian",
+    "prodi": "Agroekoteknologi"
+  },
+  {
+    "nomor_pendaftaran": "370",
+    "nama": "Amir Hisnul Hamzah",
     "prodi": "Manajemen"
   },
   {
-    "nomor_pendaftaran": "ORIMA202608",
-    "nama": "Ahmad Pratama",
+    "nomor_pendaftaran": "222",
+    "nama": "Rizki Andrian Kusuma",
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "nomor_pendaftaran": "001",
+    "nama": "Nathan Maulana",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "135",
+    "nama": "Ahmad Alkhilal Sani",
+    "prodi": "Ilmu hukum"
+  },
+  {
+    "nomor_pendaftaran": "179",
+    "nama": "Lalu Ahmad Yudhistira",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "474",
+    "nama": "Alfian iza nahumaruri",
+    "prodi": "pendidikan bahasa dan sastra indonesia"
+  },
+  {
+    "nomor_pendaftaran": "596",
+    "nama": "Ariya Fernata Yansyah",
+    "prodi": "Ilmu Tanah"
+  },
+  {
+    "nomor_pendaftaran": "567",
+    "nama": "M.Naufal Firmansyah",
+    "prodi": "S1 Peternakan"
+  },
+  {
+    "nomor_pendaftaran": "044",
+    "nama": "Andi Muhibbul Haq",
+    "prodi": "ILMU TANAH"
+  },
+  {
+    "nomor_pendaftaran": "410",
+    "nama": "Reza juniardi",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "134",
+    "nama": "Alif Hidayat",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "287",
+    "nama": "Syamsul Hidayat",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "002",
+    "nama": "I Putu Aditya Sembiring",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "275",
+    "nama": "Wira Mastuwi",
+    "prodi": "PERTERNAKAN"
+  },
+  {
+    "nomor_pendaftaran": "277",
+    "nama": "I Gede Bendesa",
+    "prodi": "PPKn"
+  },
+  {
+    "nomor_pendaftaran": "067",
+    "nama": "Hetia Evan Samudra",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "194",
+    "nama": "Abdul Malik Hidayat",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "385",
+    "nama": "Muhamad Arif Rachman Hakim",
+    "prodi": "Kimia"
+  },
+  {
+    "nomor_pendaftaran": "165",
+    "nama": "baku aufar piren",
+    "prodi": "Ilmu Tanah"
+  },
+  {
+    "nomor_pendaftaran": "354",
+    "nama": "Surya Fadhillah Ramadhan",
+    "prodi": "Peternakan"
+  },
+  {
+    "nomor_pendaftaran": "437",
+    "nama": "Egiyandra Ilham",
+    "prodi": "AGRIBISNIS"
+  },
+  {
+    "nomor_pendaftaran": "543",
+    "nama": "Firman Zaki",
+    "prodi": "PPKN"
+  },
+  {
+    "nomor_pendaftaran": "027",
+    "nama": "Zikril Sefti Nasbandi",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "022",
+    "nama": "Gama Brilian Hamdan",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "115",
+    "nama": "Muhammad Ramadhan",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "188",
+    "nama": "Selamat Rifki",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "031",
+    "nama": "Ardianjayusman",
+    "prodi": "S1 Peternakan"
+  },
+  {
+    "nomor_pendaftaran": "401",
+    "nama": "ilham priantoni",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "056",
+    "nama": "Dea Amanda",
+    "prodi": "Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "125",
+    "nama": "Lalu Alanudin",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "558",
+    "nama": "Wahyu gianso",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "499",
+    "nama": "Fatirrahman Alzaky",
+    "prodi": "Budidaya Perairan"
+  },
+  {
+    "nomor_pendaftaran": "586",
+    "nama": "Ahmad Nur Rasidin",
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "nomor_pendaftaran": "266",
+    "nama": "Sohibani Azaly",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "553",
+    "nama": "Azka Yuuki Khulafaul Rasyid",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "049",
+    "nama": "Agus Firmanysah",
+    "prodi": "Kehutanan"
+  },
+  {
+    "nomor_pendaftaran": "601",
+    "nama": "irwana ocktafiano",
+    "prodi": "pendidikan kimia"
+  },
+  {
+    "nomor_pendaftaran": "061",
+    "nama": "Giovani Agustiawan",
     "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "549",
+    "nama": "Al Fito Gustav Diky Zakaria",
+    "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "221",
+    "nama": "Gashar Yamada Atthira Rahim",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "382",
+    "nama": "Hakan Hariyadi",
+    "prodi": "Teknik elektro"
+  },
+  {
+    "nomor_pendaftaran": "399",
+    "nama": "Alam Tinta Arung Samudra",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "361",
+    "nama": "M. Juan Naufassalam",
+    "prodi": "Hubungan Internasional"
+  },
+  {
+    "nomor_pendaftaran": "402",
+    "nama": "Lalu M Kevyn Denian Saputra",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "084",
+    "nama": "Muhammad Anshari",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "301",
+    "nama": "qarib Tanzila",
+    "prodi": "Ekonomi pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "088",
+    "nama": "Alfarezi",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "141",
+    "nama": "Ibnu  Malik Al Achmad",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "024",
+    "nama": "I Gusti Ngurah Adi Saputra",
+    "prodi": "S1 Peternakan"
+  },
+  {
+    "nomor_pendaftaran": "032",
+    "nama": "Raka Fitradiyatma",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "418",
+    "nama": "Muhammad Aqwamut Thorik",
+    "prodi": "Kedokteran"
+  },
+  {
+    "nomor_pendaftaran": "245",
+    "nama": "Alfian Zubair",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "314",
+    "nama": "M. Ilham Salafy",
+    "prodi": "Teknik Sipil"
+  },
+  {
+    "nomor_pendaftaran": "244",
+    "nama": "Imron Muhammad Tasiq",
+    "prodi": "D3 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "045",
+    "nama": "ahmad farid ar rifqi",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "335",
+    "nama": "Abid Rhosyid Aufa",
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "nomor_pendaftaran": "020",
+    "nama": "Trio Purnama",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "328",
+    "nama": "Lalu Galang Jayawardana",
+    "prodi": "Peternakan"
+  },
+  {
+    "nomor_pendaftaran": "052",
+    "nama": "Ida Bagus Putu Krisna Nayatama",
+    "prodi": "Kimia"
+  },
+  {
+    "nomor_pendaftaran": "322",
+    "nama": "M. Zulfadiat",
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "nomor_pendaftaran": "283",
+    "nama": "DHIMAS CANDRA WIJAYA",
+    "prodi": "TEKNIK INFORMATIKA"
+  },
+  {
+    "nomor_pendaftaran": "331",
+    "nama": "Liyan Purnawan",
+    "prodi": "Agroekoteknologi"
+  },
+  {
+    "nomor_pendaftaran": "204",
+    "nama": "Abdul Wahid Ad-dhiya'i",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "568",
+    "nama": "Daviar Farisky Hutomo",
+    "prodi": "Hubungan international"
+  },
+  {
+    "nomor_pendaftaran": "308",
+    "nama": "Lalu Muh. Yusron Imanudin",
+    "prodi": "pendidikan sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "183",
+    "nama": "Revandy Ramadhan Retraubun",
+    "prodi": "D3 AKUNTANSI"
+  },
+  {
+    "nomor_pendaftaran": "374",
+    "nama": "Dimas Adriansyah",
+    "prodi": "S1 Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "491",
+    "nama": "LALU FAREL ADAM ISLAMI PASYA",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "034",
+    "nama": "HILMAN AL FARIZI",
+    "prodi": "Teknik Sipil"
+  },
+  {
+    "nomor_pendaftaran": "216",
+    "nama": "Muhammad Razaq Al-Bayan",
+    "prodi": "Statistika"
+  },
+  {
+    "nomor_pendaftaran": "091",
+    "nama": "Rizky pebrian",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "306",
+    "nama": "Aryudi Pratama",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "066",
+    "nama": "hafip Febrian",
+    "prodi": "Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "175",
+    "nama": "Azza Antanul Qoumi",
+    "prodi": "Teknik Sipil"
+  },
+  {
+    "nomor_pendaftaran": "529",
+    "nama": "Naqsha Naufalarik",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "582",
+    "nama": "Malik Sururi",
+    "prodi": "Ilmu dan Teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "531",
+    "nama": "Riyadh Adrian Shihab",
+    "prodi": "Ilmu dan Teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "086",
+    "nama": "ERZHAVIN FANDAWA",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "025",
+    "nama": "Ghanif Azis Pratama",
+    "prodi": "S1 Kehutanan"
+  },
+  {
+    "nomor_pendaftaran": "186",
+    "nama": "Hizbi Muliadi",
+    "prodi": "Ilmu tanah"
+  },
+  {
+    "nomor_pendaftaran": "459",
+    "nama": "Muhammad Rafif Muyassar",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "104",
+    "nama": "Hima Suratman",
+    "prodi": "AGROEKOTEKNOLOGI"
+  },
+  {
+    "nomor_pendaftaran": "168",
+    "nama": "Istiqomah Virginia",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "538",
+    "nama": "Indana Lazulfa",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "076",
+    "nama": "Fatilah Sari",
+    "prodi": "Pendidikan Kimia"
+  },
+  {
+    "nomor_pendaftaran": "146",
+    "nama": "Nuria Sanjana",
+    "prodi": "Hubungan Internasional"
+  },
+  {
+    "nomor_pendaftaran": "074",
+    "nama": "Alya Rasyida Putri",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "420",
+    "nama": "khairunnisa",
+    "prodi": "Pendidikan kimia"
+  },
+  {
+    "nomor_pendaftaran": "148",
+    "nama": "Senja Nur Aziza",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "528",
+    "nama": "Anisa Mardotillah",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "360",
+    "nama": "Fadila Sukmawati",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "449",
+    "nama": "Inaz Putri Kamila",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "605",
+    "nama": "intan syuruha hermazila",
+    "prodi": "Pendidikan Fisika"
+  },
+  {
+    "nomor_pendaftaran": "214",
+    "nama": "Elsa Ayu Ramadani",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "185",
+    "nama": "Ni Kadek Ayu Ananda",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "422",
+    "nama": "Aisah Nurfadilah",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "430",
+    "nama": "Nadia utami",
+    "prodi": "PENDIDIKAN GURU SEKOLAH DASAR"
+  },
+  {
+    "nomor_pendaftaran": "441",
+    "nama": "Rasel Triyandari",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "242",
+    "nama": "Samin Aeni",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "113",
+    "nama": "Anisa Nabila",
+    "prodi": "Ilmu Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "073",
+    "nama": "AGISNA QOTRUNADA",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "213",
+    "nama": "Hafifatun Zahwa",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "470",
+    "nama": "Sofiaton Adawiah",
+    "prodi": "Pendidikan Bahasa Inggris"
+  },
+  {
+    "nomor_pendaftaran": "270",
+    "nama": "Baiq Keisha Ratu Ganefi Hansyami",
+    "prodi": "Hubungan internasional"
+  },
+  {
+    "nomor_pendaftaran": "153",
+    "nama": "Annisa Prayingga Salsabila",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "537",
+    "nama": "Uswatun hasanah",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "362",
+    "nama": "Nazwa Atma Pazila",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "218",
+    "nama": "Rika Safitri",
+    "prodi": "Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "269",
+    "nama": "Naria Fitri",
+    "prodi": "Pendidikan  Pancasila  dan Kewarganegaraan"
+  },
+  {
+    "nomor_pendaftaran": "378",
+    "nama": "Evalinda Gracia Faozi",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "325",
+    "nama": "Sri Ayu",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "267",
+    "nama": "baiq ratna intan wardani",
+    "prodi": "agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "124",
+    "nama": "Sharimah",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "129",
+    "nama": "Marya Ulfa",
+    "prodi": "PPKn"
+  },
+  {
+    "nomor_pendaftaran": "072",
+    "nama": "Najma Safinatun Najah",
+    "prodi": "Pendidikan Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "137",
+    "nama": "Sukma Juliarni",
+    "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "606",
+    "nama": "Nela Nur Alifa",
+    "prodi": "Statistika"
+  },
+  {
+    "nomor_pendaftaran": "423",
+    "nama": "Pebriani Muhammad",
+    "prodi": "Pendidikan Guru Sekolah Dasar"
+  },
+  {
+    "nomor_pendaftaran": "448",
+    "nama": "SITI SYAFAATUN NAHDIYAH",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "440",
+    "nama": "Aurelia Shylvie",
+    "prodi": "Statistika"
+  },
+  {
+    "nomor_pendaftaran": "353",
+    "nama": "Naira Almira",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "036",
+    "nama": "Ika Rustiani",
+    "prodi": "Hubungan Internasional"
+  },
+  {
+    "nomor_pendaftaran": "397",
+    "nama": "Melissa Aulia Ramadhan",
+    "prodi": "Statistika"
+  },
+  {
+    "nomor_pendaftaran": "193",
+    "nama": "Baiq Nayla Rizkika",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "139",
+    "nama": "Baiq Najwa Allena Utami",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "256",
+    "nama": "Cahaya Syahbani Azalia",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "008",
+    "nama": "Jamiyatul hasani",
+    "prodi": "KIMIA"
+  },
+  {
+    "nomor_pendaftaran": "571",
+    "nama": "Khaira Istighfarah Ahyar",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "189",
+    "nama": "Zahwa hidayani",
+    "prodi": "ILMU HUKUM"
+  },
+  {
+    "nomor_pendaftaran": "060",
+    "nama": "Diyya Naura Azzira",
+    "prodi": "Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "261",
+    "nama": "Dwi Cahya Ananda",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "169",
+    "nama": "Amilda Al-Manar",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "510",
+    "nama": "Lola Agustina",
+    "prodi": "Pendidikan Kimia"
+  },
+  {
+    "nomor_pendaftaran": "161",
+    "nama": "Natasya Juliantina",
+    "prodi": "S1 AKUNTANSI"
+  },
+  {
+    "nomor_pendaftaran": "445",
+    "nama": "Baiq Anisa Amalia",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "554",
+    "nama": "Fathia Hana kamila",
+    "prodi": "Ekonomi pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "569",
+    "nama": "Manita Laili Pebriani",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "600",
+    "nama": "ummi nur amaliah",
+    "prodi": "Pendidikan Kimia"
+  },
+  {
+    "nomor_pendaftaran": "147",
+    "nama": "AinunIzzatul",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "155",
+    "nama": "NINGSIH MEI SARI",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "071",
+    "nama": "Wafiq Izzatul",
+    "prodi": "Ilmu dan teknologi pangan"
+  },
+  {
+    "nomor_pendaftaran": "063",
+    "nama": "Sahifah Ashadiqah",
+    "prodi": "Ilmu Tanah"
+  },
+  {
+    "nomor_pendaftaran": "154",
+    "nama": "Nurmulya",
+    "prodi": "Biologi"
+  },
+  {
+    "nomor_pendaftaran": "453",
+    "nama": "Putri Ramdhani",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "145",
+    "nama": "Yoja Asri Pravida",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "150",
+    "nama": "Ni Wayan Suwadita Sari",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "167",
+    "nama": "Gintan Aisha Rahman",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "105",
+    "nama": "Ridaiyatil Asyqiya",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "560",
+    "nama": "sulis setia ningrum",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "053",
+    "nama": "Baiq Ririn Septiani",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "343",
+    "nama": "Giwa Ratna Suara",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "591",
+    "nama": "Salma",
+    "prodi": "pgsd"
+  },
+  {
+    "nomor_pendaftaran": "358",
+    "nama": "Zahratun Najah",
+    "prodi": "pendidikan matematika"
+  },
+  {
+    "nomor_pendaftaran": "488",
+    "nama": "Laili Rosida",
+    "prodi": "Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "231",
+    "nama": "Arnisa mazwara",
+    "prodi": "Pendidikan Bahasa dan sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "407",
+    "nama": "Baiq Aminul Hamdi",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "447",
+    "nama": "Mutia Nuril Safitri",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "037",
+    "nama": "Lyra Sunsabila",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "334",
+    "nama": "Salwa Azzahra",
+    "prodi": "Pendidikan Bahasa Inggris"
+  },
+  {
+    "nomor_pendaftaran": "518",
+    "nama": "nazipatun najwa",
+    "prodi": "Bahasa dan sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "562",
+    "nama": "najwa salsabila",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "593",
+    "nama": "Agna anki mala",
+    "prodi": "Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "016",
+    "nama": "Siti Hajar",
+    "prodi": "ilmu komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "388",
+    "nama": "Sazkiah Kurrata Aini",
+    "prodi": "Teknik Sipil"
+  },
+  {
+    "nomor_pendaftaran": "069",
+    "nama": "Alia Wardina",
+    "prodi": "Ilmu dan Teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "187",
+    "nama": "Mila Indah Istiqomah",
+    "prodi": "PENDIDIKAN BAHASA DAN SASTRA INDONESIA"
+  },
+  {
+    "nomor_pendaftaran": "357",
+    "nama": "Haliza",
+    "prodi": "Pendidikan matematika"
+  },
+  {
+    "nomor_pendaftaran": "512",
+    "nama": "Aura Permata Grasya",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "541",
+    "nama": "Dzakiyyah Erinsyah Putri",
+    "prodi": "S-1 Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "017",
+    "nama": "Nazira Qur'ani",
+    "prodi": "Kimia"
+  },
+  {
+    "nomor_pendaftaran": "548",
+    "nama": "Nuri dara yani",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "379",
+    "nama": "Ayu Azmi Amilia",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "307",
+    "nama": "Nayla Naza F.",
+    "prodi": "Pendidikan Pancasila dan Kewarganegaraan"
+  },
+  {
+    "nomor_pendaftaran": "371",
+    "nama": "Ananda Fadhilah",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "493",
+    "nama": "Mutasya Humairo",
+    "prodi": "Pendidikan Kimia"
+  },
+  {
+    "nomor_pendaftaran": "164",
+    "nama": "Baiq Erina Dwierfiana",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "019",
+    "nama": "Baiq Jilva Aulia",
+    "prodi": "Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "317",
+    "nama": "nazhani salsabila",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "054",
+    "nama": "Nurul Izati",
+    "prodi": "Pen. Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "190",
+    "nama": "salwa",
+    "prodi": "matematika"
+  },
+  {
+    "nomor_pendaftaran": "092",
+    "nama": "laely farhani",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "467",
+    "nama": "Thalita Azaria Andani",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "486",
+    "nama": "Siti Khaeriani",
+    "prodi": "Pendidikan Bahasa Inggris"
+  },
+  {
+    "nomor_pendaftaran": "570",
+    "nama": "Mia Aurora",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "597",
+    "nama": "Amisa Feralia",
+    "prodi": "Agroteknologi"
+  },
+  {
+    "nomor_pendaftaran": "100",
+    "nama": "nur asmah",
+    "prodi": "Ekonomi pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "114",
+    "nama": "Kiki Amalia",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "195",
+    "nama": "Syifa Fajrina",
+    "prodi": "Pendidikan Bahasa Inggris"
+  },
+  {
+    "nomor_pendaftaran": "166",
+    "nama": "Hadinta Dwi Utami",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "366",
+    "nama": "Lisa Sagita",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "199",
+    "nama": "Putri Ramadhani",
+    "prodi": "PENDIDIKAN FISIKA"
+  },
+  {
+    "nomor_pendaftaran": "011",
+    "nama": "Keika Aulyna Firdaus",
+    "prodi": "Hubungan Internasional"
+  },
+  {
+    "nomor_pendaftaran": "254",
+    "nama": "FAIQOTUN NI'MAH",
+    "prodi": "Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "483",
+    "nama": "Rida Pebriani",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "296",
+    "nama": "Ila Munajat Maulani",
+    "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "215",
+    "nama": "Aliyah Putri Nabillah",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "389",
+    "nama": "Nasywa Zafira Maulida",
+    "prodi": "ILMU LINGKUNGAN"
+  },
+  {
+    "nomor_pendaftaran": "508",
+    "nama": "Resti Nurmala",
+    "prodi": "Perpajakan"
+  },
+  {
+    "nomor_pendaftaran": "585",
+    "nama": "Mellisa Sahrani",
+    "prodi": "d3 akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "416",
+    "nama": "Rohmatul Azizah karya",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "110",
+    "nama": "Siti Nurmayanti Aulia Solihah",
+    "prodi": "Fisika"
+  },
+  {
+    "nomor_pendaftaran": "369",
+    "nama": "Liza Latifa Hanum",
+    "prodi": "Ekonomi Pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "431",
+    "nama": "Nana Dila Pratiwi",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "005",
+    "nama": "Naisya Bifadillah",
+    "prodi": "Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "442",
+    "nama": "Amiza Izati",
+    "prodi": "D3 Perpajakan"
+  },
+  {
+    "nomor_pendaftaran": "535",
+    "nama": "ANGGUN JUWITA",
+    "prodi": "Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "390",
+    "nama": "Athaya Raysa Alam",
+    "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "458",
+    "nama": "BaiqAnggunSyfaNovaliaAzahra",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "393",
+    "nama": "Amelia puspa sunita",
+    "prodi": "Pendidikan biologi"
+  },
+  {
+    "nomor_pendaftaran": "485",
+    "nama": "Hadiatu Zuhro",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "007",
+    "nama": "Nabila Cintarama",
+    "prodi": "AGROEKOTEKNOLOGI"
+  },
+  {
+    "nomor_pendaftaran": "260",
+    "nama": "May Aryanti",
+    "prodi": "Pendidikan Fisika"
+  },
+  {
+    "nomor_pendaftaran": "471",
+    "nama": "Anida Farha Azkia",
+    "prodi": "Kimia"
+  },
+  {
+    "nomor_pendaftaran": "556",
+    "nama": "Okvina Dwi Neily Farhani",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "128",
+    "nama": "Zahira Ainun Najwa",
+    "prodi": "Biologi"
+  },
+  {
+    "nomor_pendaftaran": "494",
+    "nama": "Rizka Ahdania",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "041",
+    "nama": "Fitri Amelia",
+    "prodi": "Teknik Sipil"
+  },
+  {
+    "nomor_pendaftaran": "263",
+    "nama": "VIOLA AYUDIA AESTI",
+    "prodi": "Pendidikan Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "203",
+    "nama": "Baiq Fadila Ramadani",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "367",
+    "nama": "Emilia Putri",
+    "prodi": "AGRIBISNIS"
+  },
+  {
+    "nomor_pendaftaran": "142",
+    "nama": "Diana Naloa Ulma",
+    "prodi": "Teknik Mesin"
+  },
+  {
+    "nomor_pendaftaran": "534",
+    "nama": "(Nadrotunnaima)",
+    "prodi": "Farmasi"
+  },
+  {
+    "nomor_pendaftaran": "055",
+    "nama": "Baiq Riska Hapipah",
+    "prodi": "Biologi"
+  },
+  {
+    "nomor_pendaftaran": "262",
+    "nama": "Nurul Hafiza",
+    "prodi": "Pendidikan Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "490",
+    "nama": "Veliya Sabila Citra Lestari",
+    "prodi": "Pendidikan Anak Usia Dini"
+  },
+  {
+    "nomor_pendaftaran": "198",
+    "nama": "Miradatussoleha",
+    "prodi": "Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "202",
+    "nama": "Syafia Rizqi Salma",
+    "prodi": "Pendidikan Bahasa Inggris"
+  },
+  {
+    "nomor_pendaftaran": "330",
+    "nama": "Sitti Atika Dwi Cahyani",
+    "prodi": "Ekonomi pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "170",
+    "nama": "Baiq Dwi Putri Ihzaty",
+    "prodi": "Pendidikan Dokter"
+  },
+  {
+    "nomor_pendaftaran": "272",
+    "nama": "Nelza Alika Rizky",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "363",
+    "nama": "jacinda jessica",
+    "prodi": "ekonomi pembangunan"
+  },
+  {
+    "nomor_pendaftaran": "227",
+    "nama": "Tasya Isbandia",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "563",
+    "nama": "NandaAdyaPutri",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "180",
+    "nama": "pirda Asyatun Aysi",
+    "prodi": "pendidikan biologi"
+  },
+  {
+    "nomor_pendaftaran": "313",
+    "nama": "Fazila Fitriani",
+    "prodi": "Akuntansi (S1)"
+  },
+  {
+    "nomor_pendaftaran": "300",
+    "nama": "Fara Arya Cantika Putri DM",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "463",
+    "nama": "Dinda Prety Azhari",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "109",
+    "nama": "Siti Hurun In",
+    "prodi": "Teknik Pertanian"
+  },
+  {
+    "nomor_pendaftaran": "395",
+    "nama": "Nalin Septiana",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "018",
+    "nama": "Baiq Tryana Afrilianingrum",
+    "prodi": "D3 Pariwisata"
+  },
+  {
+    "nomor_pendaftaran": "028",
+    "nama": "Adinda Fatimah Azzahra",
+    "prodi": "Pendidikan dokter"
+  },
+  {
+    "nomor_pendaftaran": "615",
+    "nama": "Baiq Desi Fitria Hani",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "579",
+    "nama": "BAIQ DINA ELVIANI",
+    "prodi": "Pendidikan Pancasila dan Kewarganegaraan"
+  },
+  {
+    "nomor_pendaftaran": "555",
+    "nama": "TARA NURWITASARI",
+    "prodi": "Ilmu Komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "405",
+    "nama": "Siti Hanifa",
+    "prodi": "S1-Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "595",
+    "nama": "Difa Dwi Putri",
+    "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "509",
+    "nama": "Adiva Maulida",
+    "prodi": "Ilmu Lingkungan"
+  },
+  {
+    "nomor_pendaftaran": "337",
+    "nama": "NADYA MIRANTI",
+    "prodi": "Ilmu dan teknologi pangan"
+  },
+  {
+    "nomor_pendaftaran": "208",
+    "nama": "RethaRomadhina",
+    "prodi": "Sosiologi"
+  },
+  {
+    "nomor_pendaftaran": "223",
+    "nama": "NadinSaniyaMaudina",
+    "prodi": "Ilmu Lingkungan"
+  },
+  {
+    "nomor_pendaftaran": "268",
+    "nama": "Deca aulia",
+    "prodi": "Teknik pertanian"
+  },
+  {
+    "nomor_pendaftaran": "602",
+    "nama": "Nia Diniati",
+    "prodi": "Ilmu Hukum"
+  },
+  {
+    "nomor_pendaftaran": "455",
+    "nama": "Zurriatul Mufidda",
+    "prodi": "Hubungan internasional"
+  },
+  {
+    "nomor_pendaftaran": "253",
+    "nama": "Vita Aulia",
+    "prodi": "Ilmu dan teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "009",
+    "nama": "Rajbhita Pentara",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "081",
+    "nama": "Bq Izza",
+    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "291",
+    "nama": "Haifa Jazira Hirmi",
+    "prodi": "AKUNTANSI (S1)"
+  },
+  {
+    "nomor_pendaftaran": "043",
+    "nama": "Mutya Putri zazkiyah",
+    "prodi": "statistika"
+  },
+  {
+    "nomor_pendaftaran": "082",
+    "nama": "Kayyisah Syawalya Salsabila",
+    "prodi": "Kehutanan"
+  },
+  {
+    "nomor_pendaftaran": "209",
+    "nama": "Agisca Meidy Tara",
+    "prodi": "S1 AKUNTANSI"
+  },
+  {
+    "nomor_pendaftaran": "316",
+    "nama": "Aalia Laiqa Qiyyama",
+    "prodi": "Ilmu dan Teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "511",
+    "nama": "Bunga Harum Dani",
+    "prodi": "AKUNTANSI S1"
+  },
+  {
+    "nomor_pendaftaran": "516",
+    "nama": "Aqila Zasqia Islamiah",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "224",
+    "nama": "Lidia Septiana",
+    "prodi": "Bahasa dan Sastra Indonesia"
+  },
+  {
+    "nomor_pendaftaran": "611",
+    "nama": "Shirley Talia",
+    "prodi": "PGPAUD"
+  },
+  {
+    "nomor_pendaftaran": "394",
+    "nama": "Sofhia Aqila",
+    "prodi": "KIMIA"
+  },
+  {
+    "nomor_pendaftaran": "238",
+    "nama": "bintang brillian Febrianti",
+    "prodi": "Teknik industri"
+  },
+  {
+    "nomor_pendaftaran": "157",
+    "nama": "Adinda Zuhratun Nazifa",
+    "prodi": "Pendidikan kimia"
+  },
+  {
+    "nomor_pendaftaran": "248",
+    "nama": "Jingga Nanditha Kirana",
+    "prodi": "D3 akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "580",
+    "nama": "Mili hadia utami",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "383",
+    "nama": "Laili Nurmalia",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "417",
+    "nama": "Alifhatul ilma",
+    "prodi": "manajemen"
+  },
+  {
+    "nomor_pendaftaran": "051",
+    "nama": "Ayu Andira",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "127",
+    "nama": "Suci Januarsih",
+    "prodi": "KIMIA"
+  },
+  {
+    "nomor_pendaftaran": "176",
+    "nama": "Fella Fakhira",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "247",
+    "nama": "Maura Adya Puteri",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "070",
+    "nama": "Eliana Safitri",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "174",
+    "nama": "Alya Himniyati",
+    "prodi": "PGSD"
+  },
+  {
+    "nomor_pendaftaran": "396",
+    "nama": "rianti salsabila",
+    "prodi": "kimia"
+  },
+  {
+    "nomor_pendaftaran": "497",
+    "nama": "Dendiya Nawang Saseh",
+    "prodi": "Statistika"
+  },
+  {
+    "nomor_pendaftaran": "590",
+    "nama": "Nabilatussalamah",
+    "prodi": "Matematika"
+  },
+  {
+    "nomor_pendaftaran": "616",
+    "nama": "Cokorda Istri Wayan Satriani",
+    "prodi": "Teknik Industri"
+  },
+  {
+    "nomor_pendaftaran": "375",
+    "nama": "Citra Indriyani",
+    "prodi": "Teknik Informatika"
+  },
+  {
+    "nomor_pendaftaran": "057",
+    "nama": "Vina Syabla Harvianti",
+    "prodi": "Agribisnis"
+  },
+  {
+    "nomor_pendaftaran": "078",
+    "nama": "Baiq Nasya Salsyabila Azohra",
+    "prodi": "Pendidikan Kimia"
+  },
+  {
+    "nomor_pendaftaran": "133",
+    "nama": "Adelia Septia Ramadani",
+    "prodi": "Teknik Elektro"
+  },
+  {
+    "nomor_pendaftaran": "239",
+    "nama": "Tiara Rizki Awali",
+    "prodi": "Pendidikan Matematika"
+  },
+  {
+    "nomor_pendaftaran": "332",
+    "nama": "Qurroti A Yunina",
+    "prodi": "Manajemen"
+  },
+  {
+    "nomor_pendaftaran": "391",
+    "nama": "Nuha Alifia Zohri",
+    "prodi": "Ilmu dan Teknologi Pangan"
+  },
+  {
+    "nomor_pendaftaran": "398",
+    "nama": "Hafna Ilmi Mahalla",
+    "prodi": "S1 Akuntansi"
+  },
+  {
+    "nomor_pendaftaran": "525",
+    "nama": "luna afifa",
+    "prodi": "manajemen"
+  },
+  {
+    "nomor_pendaftaran": "609",
+    "nama": "Shirain Firyal Qatrunnada",
+    "prodi": "Statistika"
   }
 ]

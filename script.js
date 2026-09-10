@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const target = new Date(
         now.getFullYear(),
         now.getMonth(),
-        now.getDate() + 12,
+        now.getDate(),
         23,
         59,
         0,
