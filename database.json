@@ -1,5 +1,4 @@
 [
-
   {
     "nomor_pendaftaran": "000",
     "nama": "Zianurrachman",
@@ -9,6 +8,18 @@
     "nomor_pendaftaran": "999",
     "nama": "fauzan hari ramdani",
     "prodi": "Teknik Informatika"
+  },
+
+  {
+    "nomor_pendaftaran": "000",
+    "nama": "salsabila aulia ",
+    "prodi": "Ilmu Hukum"
+  },
+
+  {
+    "nomor_pendaftaran": "0000",
+    "nama": "siti mutia",
+    "prodi": "Pendidikan Bahasa Inggris"
   },
   {
     "nomor_pendaftaran": "ORIMA202601",
