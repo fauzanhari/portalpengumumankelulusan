@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         now.getFullYear(),
         now.getMonth(),
         now.getDate(),
-        23,
-        59 + 10,
+        0,
+        8,
         0,
         0 // 23:59:00
       );
