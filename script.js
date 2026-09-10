@@ -6,6 +6,93 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // ----------------------------------------------------------------------
+    // 0. COUNTDOWN TIMER — Pengumuman dibuka jam 23:59:00 hari ini
+    // ----------------------------------------------------------------------
+    (function initCountdown() {
+        const overlay    = document.getElementById('countdown-overlay');
+        const elHours    = document.getElementById('cd-hours');
+        const elMinutes  = document.getElementById('cd-minutes');
+        const elSeconds  = document.getElementById('cd-seconds');
+        const starsWrap  = document.getElementById('cd-stars-container');
+
+        // Generate floating stars
+        for (let i = 0; i < 60; i++) {
+            const s = document.createElement('span');
+            const size = Math.random() * 3 + 1;
+            s.style.cssText = `
+                width:${size}px; height:${size}px;
+                top:${Math.random()*100}%;
+                left:${Math.random()*100}%;
+                animation-delay:${Math.random()*6}s;
+                animation-duration:${(Math.random()*3+2).toFixed(1)}s;
+            `;
+            starsWrap.appendChild(s);
+        }
+
+        // Target: hari ini jam 23:59:00 (waktu lokal browser)
+        function getTargetTime() {
+            const now = new Date();
+            const target = new Date(
+                now.getFullYear(),
+                now.getMonth(),
+                now.getDate(),
+                23, 59, 0, 0   // 23:59:00
+            );
+            return target;
+        }
+
+        function pad(n) { return String(n).padStart(2, '0'); }
+
+        function flipAnim(el, newVal) {
+            if (el.textContent !== newVal) {
+                el.classList.add('flip');
+                setTimeout(() => {
+                    el.textContent = newVal;
+                    el.classList.remove('flip');
+                }, 150);
+            }
+        }
+
+        function tick() {
+            const now      = new Date();
+            const target   = getTargetTime();
+            const diffMs   = target - now;
+
+            if (diffMs <= 0) {
+                // Waktunya! Tampilkan unlock animation lalu hapus overlay
+                elHours.textContent   = '00';
+                elMinutes.textContent = '00';
+                elSeconds.textContent = '00';
+
+                // Swap ikon gembok → gembok terbuka dengan flash
+                const lockIcon = overlay.querySelector('.cd-lock-icon i');
+                if (lockIcon) {
+                    lockIcon.className = 'fa-solid fa-lock-open';
+                }
+                overlay.style.transition = 'opacity 0.8s ease';
+                overlay.style.opacity    = '0';
+                setTimeout(() => {
+                    overlay.classList.add('hidden');
+                }, 900);
+                return; // stop ticking
+            }
+
+            const totalSec = Math.floor(diffMs / 1000);
+            const hours    = Math.floor(totalSec / 3600);
+            const minutes  = Math.floor((totalSec % 3600) / 60);
+            const seconds  = totalSec % 60;
+
+            flipAnim(elHours,   pad(hours));
+            flipAnim(elMinutes, pad(minutes));
+            flipAnim(elSeconds, pad(seconds));
+
+            setTimeout(tick, 1000);
+        }
+
+        tick(); // mulai
+    })();
+
+    // ----------------------------------------------------------------------
     // 1. EMBEDDED FALLBACK PASSED PARTICIPANTS DATASET (100% Works Offline)
     // ----------------------------------------------------------------------
     const fallbackPassedDatabase = [
@@ -127,6 +214,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. INTRO TRANSITION LOGIC
     // ----------------------------------------------------------------------
     btnEnter.addEventListener('click', () => {
+        // Mulai musik saat user berinteraksi pertama kali (browser policy)
+        const bgMusic = document.getElementById('bg-music');
+        if (bgMusic) {
+            bgMusic.volume = 0.5;
+            bgMusic.play().catch(err => console.warn('Musik tidak bisa diplay:', err));
+        }
+
         introSection.classList.add('intro-fade-out');
         setTimeout(() => {
             introSection.classList.add('hidden');

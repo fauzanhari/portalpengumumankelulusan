@@ -1,19 +1,255 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Pengumuman Kelulusan ORIMA 2026 - UKM PRIMA UNRAM</title>
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Cinzel:wght@700;900&display=swap"
+      rel="stylesheet" />
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* ── COUNTDOWN OVERLAY ───────────────────────────────────────────── */
+      #countdown-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(ellipse at 50% 0%, #0f0728 0%, #050212 70%);
+        padding: 24px;
+        text-align: center;
+        overflow: hidden;
+      }
+      #countdown-overlay.hidden { display: none !important; }
+
+      /* floating stars behind countdown */
+      #countdown-overlay .cd-stars {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        overflow: hidden;
+      }
+      #countdown-overlay .cd-stars span {
+        position: absolute;
+        display: block;
+        background: #fff;
+        border-radius: 50%;
+        animation: cd-twinkle 3s infinite alternate;
+        opacity: 0;
+      }
+      @keyframes cd-twinkle {
+        0%   { opacity: 0; transform: scale(1); }
+        50%  { opacity: 0.8; }
+        100% { opacity: 0.2; transform: scale(1.4); }
+      }
+
+      /* pulsing ring behind icon */
+      .cd-ring {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 28px;
+      }
+      .cd-ring::before,
+      .cd-ring::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        border: 2px solid rgba(168,85,247,0.4);
+        animation: cd-pulse-ring 2s ease-out infinite;
+      }
+      .cd-ring::after {
+        animation-delay: 1s;
+        border-color: rgba(99,102,241,0.3);
+      }
+      @keyframes cd-pulse-ring {
+        0%   { transform: scale(1); opacity: 1; }
+        100% { transform: scale(1.8); opacity: 0; }
+      }
+      .cd-lock-icon {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+        background: linear-gradient(135deg, #a855f7, #6366f1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: cd-icon-glow 2s ease-in-out infinite alternate;
+      }
+      @keyframes cd-icon-glow {
+        from { filter: drop-shadow(0 0 8px rgba(168,85,247,0.6)); }
+        to   { filter: drop-shadow(0 0 20px rgba(168,85,247,1)); }
+      }
+
+      .cd-label {
+        font-family: 'Cinzel', serif;
+        font-size: clamp(0.65rem, 2.5vw, 0.85rem);
+        letter-spacing: 0.35em;
+        color: rgba(168,85,247,0.8);
+        text-transform: uppercase;
+        margin-bottom: 6px;
+      }
+      .cd-title {
+        font-family: 'Cinzel', serif;
+        font-size: clamp(1.3rem, 5vw, 2rem);
+        font-weight: 900;
+        color: #fff;
+        text-shadow: 0 0 30px rgba(168,85,247,0.5);
+        line-height: 1.2;
+        margin-bottom: 6px;
+      }
+      .cd-subtitle {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: clamp(0.78rem, 2.5vw, 0.95rem);
+        color: rgba(255,255,255,0.5);
+        margin-bottom: 36px;
+      }
+
+      /* clock blocks */
+      .cd-clock {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        margin-bottom: 32px;
+      }
+      .cd-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+      }
+      .cd-num {
+        font-family: 'Cinzel', serif;
+        font-size: clamp(2.2rem, 8vw, 3.8rem);
+        font-weight: 900;
+        color: #fff;
+        background: rgba(168,85,247,0.12);
+        border: 1px solid rgba(168,85,247,0.3);
+        border-radius: 16px;
+        width: clamp(70px, 18vw, 110px);
+        height: clamp(70px, 18vw, 110px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 24px rgba(168,85,247,0.2), inset 0 1px 0 rgba(255,255,255,0.08);
+        transition: transform 0.15s ease;
+      }
+      .cd-num.flip {
+        transform: scale(0.9);
+      }
+      .cd-num::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(168,85,247,0.08) 50%, rgba(99,102,241,0.05) 50%);
+        pointer-events: none;
+      }
+      .cd-unit {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: 0.7rem;
+        letter-spacing: 0.15em;
+        color: rgba(168,85,247,0.7);
+        text-transform: uppercase;
+      }
+      .cd-sep {
+        font-family: 'Cinzel', serif;
+        font-size: clamp(1.8rem, 6vw, 3rem);
+        color: rgba(168,85,247,0.6);
+        margin-top: -18px;
+        animation: cd-blink 1s step-end infinite;
+      }
+      @keyframes cd-blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+
+      .cd-info {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: clamp(0.75rem, 2.5vw, 0.88rem);
+        color: rgba(255,255,255,0.35);
+        max-width: 320px;
+        line-height: 1.6;
+      }
+      .cd-info strong { color: rgba(168,85,247,0.85); }
+    </style>
+  </head>
+  <body>
+    <!-- ===================================================================
+         COUNTDOWN OVERLAY — tampil sebelum jam 23:59 hari ini
+         =================================================================== -->
+    <div id="countdown-overlay">
+      <!-- floating stars -->
+      <div class="cd-stars" id="cd-stars-container"></div>
+
+      <!-- pulsing lock icon -->
+<div class="logo-group">
+          <div class="logo-circle" title="Universitas Mataram">
+            <img src="assets/logo_unram.png" alt="Logo UNRAM" />
+          </div>
+          <div class="logo-circle logo-main" title="ORIMA 2026">
+            <img src="assets/logo_orima.jpg" alt="Logo ORIMA 2026" />
+          </div>
+          <div class="logo-circle" title="UKM PRIMA UNRAM">
+            <img src="assets/kabinet.png" alt="Logo UKM PRIMA UNRAM" />
+          </div>
+          <div class="logo-circle" title="UKM PRIMA UNRAM">
+            <img src="assets/logo_ukmprima.jpg" alt="Logo UKM PRIMA UNRAM" />
+          </div>
+        </div>
+
+      <p class="cd-label">UKM PRIMA UNRAM • ORIMA 2026</p>
+      <h1 class="cd-title">Pengumuman Akan Segera Dibuka</h1>
+      <p class="cd-subtitle">Nantikan pengumuman kelulusan dan tetap berdoa yah teman-teman</p>
+
+      <div class="cd-clock">
+        <div class="cd-block">
+          <div class="cd-num" id="cd-hours">00</div>
+          <span class="cd-unit">Jam</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-block">
+          <div class="cd-num" id="cd-minutes">00</div>
+          <span class="cd-unit">Menit</span>
+        </div>
+        <div class="cd-sep">:</div>
+        <div class="cd-block">
+          <div class="cd-num" id="cd-seconds">00</div>
+          <span class="cd-unit">Detik</span>
+        </div>
+      </div>
+
+      <p class="cd-info">
+        Pengumuman resmi Seleksi Open Recruitment UKM PRIMA 2026<br>
+        <strong>Assalamualaikum UKM PRIMA ! Terima aku yahhh !!</strong>.
+      </p>
+    </div>
+
+    <!-- Background Music -->
+    <audio
+      id="bg-music"
+      src="assets/dropdead.mp3"
+      loop
+      preload="auto"
+      playsinline></audio>
 
     <!-- Stars & Cosmic Particles Background -->
     <div class="stars-bg"></div>
@@ -24,255 +260,307 @@
     <canvas id="confetti-canvas"></canvas>
 
     <div class="app-container">
-
-        <!-- ===================================================================
+      <!-- ===================================================================
              1. INTRO SPLASH SCREEN (MOBILE-FIRST ANIMATED LANDING)
              =================================================================== -->
-        <section id="intro-section" class="intro-card">
-            
-            <!-- Row 3 Logo Bulat: UNRAM, ORIMA 2026, UKM PRIMA -->
-            <div class="logo-group">
-                <div class="logo-circle" title="Universitas Mataram">
-                    <img src="assets/logo_unram.png" alt="Logo UNRAM">
-                </div>
-                <div class="logo-circle logo-main" title="ORIMA 2026">
-                    <img src="assets/logo_orima.jpg" alt="Logo ORIMA 2026">
-                </div>
-                <div class="logo-circle" title="UKM PRIMA UNRAM">
-                    <img src="assets/kabinet.png" alt="Logo UKM PRIMA UNRAM">
-                </div>
-                <div class="logo-circle" title="UKM PRIMA UNRAM">
-                    <img src="assets/logo_ukmprima.jpg" alt="Logo UKM PRIMA UNRAM">
-                </div>
-            </div>
-
-            <div class="intro-titles">
-                <div class="org-tag">KABINET UNI7Y • UKM PRIMA UNRAM</div>
-                <p class="recruitment-tag">OPEN RECRUITMENT</p>
-                <h1 class="main-title">ORIMA 2026</h1>
-                <div class="eclipse-title">E C L I P S E</div>
-                <p class="theme-description">
-                    Eksplorasi Cipta Karya, Leadership, Inovasi, Potensi, Solidaritas, dan Ekselensi bersama UKM PRIMA UNRAM
-                </p>
-            </div>
-
-            <div class="intro-actions">
-                <button type="button" id="btn-enter" class="btn btn-cosmic">
-                    <span>Cek Kelulusan Sekarang</span>
-                    <i class="fa-solid fa-circle-arrow-right"></i>
-                </button>
-            </div>
-        </section>
-
-        <!-- ===================================================================
-             2. MAIN APP CONTENT (HEADER & FORM PENCARIAN)
-             =================================================================== -->
-        <div id="main-app" class="hidden">
-
-            <!-- Header Portal dengan 3 Logo Bulat -->
-            <header class="app-header">
-                <div class="logo-group sm-logos">
-                    <div class="logo-circle sm">
-                        <img src="assets/logo_unram.png" alt="Logo UNRAM">
-                    </div>
-                    <div class="logo-circle sm logo-main">
-                        <img src="assets/logo_orima.jpg" alt="Logo ORIMA 2026">
-                    </div>
-                    <div class="logo-circle sm">
-                        <img src="assets/kabinet.png" alt="Logo UKM PRIMA">
-                    </div>        
-                    <div class="logo-circle sm">
-                        <img src="assets/logo_ukmprima.jpg" alt="Logo UKM PRIMA">
-                    </div>
-                </div>
-                <h1 class="header-main-title">PENGUMUMAN KELULUSAN ORIMA 2026</h1>
-                <p class="header-tagline">UKM PRIMA UNRAM - KABINET UNI7Y</p>
-            </header>
-
-            <!-- Card Form Pencarian -->
-            <section id="search-section" class="card search-card">
-                <div class="card-header">
-                    <h2><i class="fa-solid fa-magnifying-glass-chart"></i> Form Cek Hasil Seleksi</h2>
-                    <p>Masukkan Nomor Pendaftaran dan Nama Lengkap Anda.</p>
-                </div>
-
-                <form id="search-form" onsubmit="return false;">
-                    <div class="input-group">
-                        <div class="label-row">
-                            <label for="nomor-input">
-                                <i class="fa-solid fa-id-card"></i> Nomor Pendaftaran
-                            </label>
-                            <button type="button" id="btn-forgot-nomor" class="btn-forgot-link">
-                                <i class="fa-solid fa-circle-question"></i> Lupa Nomor?
-                            </button>
-                        </div>
-                        <div class="input-wrapper">
-                            <input type="text" id="nomor-input" placeholder="Contoh: 999" autocomplete="off" required>
-                        </div>
-                    </div>
-
-                    <div class="input-group">
-                        <label for="nama-input">
-                            <i class="fa-solid fa-user"></i> Nama Lengkap
-                        </label>
-                        <div class="input-wrapper">
-                            <input type="text" id="nama-input" placeholder="Contoh: Fauzan Hari Ramdani" autocomplete="off" required>
-                        </div>
-                    </div>
-
-                    <div id="error-message" class="alert alert-danger hidden">
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                        <span id="error-text">Harap isi nomor pendaftaran dan nama!</span>
-                    </div>
-
-                    <div class="button-group">
-                        <button type="submit" id="btn-submit" class="btn btn-cosmic-submit">
-                            <i class="fa-solid fa-paper-plane"></i> Periksa Kelulusan
-                        </button>
-                        <button type="button" id="btn-reset" class="btn btn-secondary">
-                            <i class="fa-solid fa-rotate-left"></i> Reset
-                        </button>
-                    </div>
-                </form>
-
-                <div class="card-footer-info">
-                    <p><i class="fa-solid fa-circle-info"></i> <strong>Petunjuk:</strong> Penulisan nama dan nomor pendaftaran harus sesuai dengan formulir pendaftaran ORIMA 2026. Lupa nomor? Gunakan tombol <strong>Lupa Nomor?</strong> di atas.</p>
-                </div>
-            </section>
-
-            <!-- Loading Indicator -->
-            <section id="loading-section" class="loading-box hidden">
-                <div class="cosmic-spinner"></div>
-                <p>Memeriksa data kelulusan peserta...</p>
-            </section>
-
-            <!-- Card Screen Hasil (LULUS / TIDAK LULUS) -->
-            <section id="result-section" class="card result-card hidden">
-                
-                <!-- Status Header Banner -->
-                <div id="status-banner" class="status-banner">
-                    <div class="status-icon-wrapper">
-                        <i id="status-icon" class="fa-solid"></i>
-                    </div>
-                    <h2 id="status-title">STATUS KELULUSAN</h2>
-                    <p id="status-subtitle">SELEKSI OPEN RECRUITMENT ORIMA 2026</p>
-                </div>
-
-                <!-- Body Hasil Detail -->
-                <div class="result-body">
-                    
-                    <!-- Grid Detail Peserta -->
-                    <div class="detail-grid">
-                        <div class="detail-item">
-                            <span class="detail-label">Nomor Pendaftaran</span>
-                            <span id="res-nomor" class="detail-value">-</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Nama Lengkap</span>
-                            <span id="res-nama" class="detail-value">-</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Program Studi</span>
-                            <span id="res-prodi" class="detail-value">-</span>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Status Seleksi</span>
-                            <span id="res-status-badge" class="badge">-</span>
-                        </div>
-                    </div>
-
-                    <!-- Kotak Pesan Dinamis (LULUS / TIDAK LULUS) -->
-                    <div class="message-box">
-                        <div class="message-header">
-                            <i class="fa-solid fa-quote-left"></i>
-                            <span>Pesan Resmi Panitia ORIMA 2026</span>
-                        </div>
-                        <p id="res-pesan" class="message-text">Pesan kelulusan akan ditampilkan di sini.</p>
-                    </div>
-
-                    <!-- Tombol Aksi Result -->
-                    <div class="result-actions">
-                        <button type="button" id="btn-back" class="btn btn-outline">
-                            <i class="fa-solid fa-arrow-left"></i> Cek Nama Lain
-                        </button>
-                        <button type="button" id="btn-print" class="btn btn-success hidden-print">
-                            <i class="fa-solid fa-print"></i> Cetak Bukti Hasil
-                        </button>
-                    </div>
-
-                </div>
-
-            </section>
-
-            <!-- Footer -->
-            <footer class="app-footer">
-                <p>&copy; 2026 UKM PRIMA UNRAM - Kabinet UNI7Y. All rights reserved.</p>
-            </footer>
-
+      <section id="intro-section" class="intro-card">
+        <!-- Row 3 Logo Bulat: UNRAM, ORIMA 2026, UKM PRIMA -->
+        <div class="logo-group">
+          <div class="logo-circle" title="Universitas Mataram">
+            <img src="assets/logo_unram.png" alt="Logo UNRAM" />
+          </div>
+          <div class="logo-circle logo-main" title="ORIMA 2026">
+            <img src="assets/logo_orima.jpg" alt="Logo ORIMA 2026" />
+          </div>
+          <div class="logo-circle" title="UKM PRIMA UNRAM">
+            <img src="assets/kabinet.png" alt="Logo UKM PRIMA UNRAM" />
+          </div>
+          <div class="logo-circle" title="UKM PRIMA UNRAM">
+            <img src="assets/logo_ukmprima.jpg" alt="Logo UKM PRIMA UNRAM" />
+          </div>
         </div>
 
+        <div class="intro-titles">
+          <div class="org-tag">KABINET UNI7Y • UKM PRIMA UNRAM</div>
+          <p class="recruitment-tag">OPEN RECRUITMENT</p>
+          <h1 class="main-title">ORIMA 2026</h1>
+          <div class="eclipse-title">E C L I P S E</div>
+          <p class="theme-description">
+            Eksplorasi Cipta Karya, Leadership, Inovasi, Potensi, Solidaritas,
+            dan Ekselensi bersama UKM PRIMA UNRAM
+          </p>
+        </div>
+
+        <div class="intro-actions">
+          <button type="button" id="btn-enter" class="btn btn-cosmic">
+            <span>Cek Kelulusan Sekarang</span>
+            <i class="fa-solid fa-circle-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+             2. MAIN APP CONTENT (HEADER & FORM PENCARIAN)
+             =================================================================== -->
+      <div id="main-app" class="hidden">
+        <!-- Header Portal dengan 3 Logo Bulat -->
+        <header class="app-header">
+          <div class="logo-group sm-logos">
+            <div class="logo-circle sm">
+              <img src="assets/logo_unram.png" alt="Logo UNRAM" />
+            </div>
+            <div class="logo-circle sm logo-main">
+              <img src="assets/logo_orima.jpg" alt="Logo ORIMA 2026" />
+            </div>
+            <div class="logo-circle sm">
+              <img src="assets/kabinet.png" alt="Logo UKM PRIMA" />
+            </div>
+            <div class="logo-circle sm">
+              <img src="assets/logo_ukmprima.jpg" alt="Logo UKM PRIMA" />
+            </div>
+          </div>
+          <h1 class="header-main-title">PENGUMUMAN KELULUSAN ORIMA 2026</h1>
+          <p class="header-tagline">UKM PRIMA UNRAM - KABINET UNI7Y</p>
+        </header>
+
+        <!-- Card Form Pencarian -->
+        <section id="search-section" class="card search-card">
+          <div class="card-header">
+            <h2>
+              <i class="fa-solid fa-magnifying-glass-chart"></i> Form Cek Hasil
+              Seleksi
+            </h2>
+            <p>Masukkan Nomor Pendaftaran dan Nama Lengkap Anda.</p>
+          </div>
+
+          <form id="search-form" onsubmit="return false;">
+            <div class="input-group">
+              <div class="label-row">
+                <label for="nomor-input">
+                  <i class="fa-solid fa-id-card"></i> Nomor Pendaftaran
+                </label>
+                <button
+                  type="button"
+                  id="btn-forgot-nomor"
+                  class="btn-forgot-link">
+                  <i class="fa-solid fa-circle-question"></i> Lupa Nomor?
+                </button>
+              </div>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="nomor-input"
+                  placeholder="Contoh: 999"
+                  autocomplete="off"
+                  required />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="nama-input">
+                <i class="fa-solid fa-user"></i> Nama Lengkap
+              </label>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  id="nama-input"
+                  placeholder="Contoh: Fauzan Hari Ramdani"
+                  autocomplete="off"
+                  required />
+              </div>
+            </div>
+
+            <div id="error-message" class="alert alert-danger hidden">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <span id="error-text">Harap isi nomor pendaftaran dan nama!</span>
+            </div>
+
+            <div class="button-group">
+              <button
+                type="submit"
+                id="btn-submit"
+                class="btn btn-cosmic-submit">
+                <i class="fa-solid fa-paper-plane"></i> Periksa Kelulusan
+              </button>
+              <button type="button" id="btn-reset" class="btn btn-secondary">
+                <i class="fa-solid fa-rotate-left"></i> Reset
+              </button>
+            </div>
+          </form>
+
+          <div class="card-footer-info">
+            <p>
+              <i class="fa-solid fa-circle-info"></i>
+              <strong>Petunjuk:</strong> Penulisan nama dan nomor pendaftaran
+              harus sesuai dengan formulir pendaftaran ORIMA 2026. Lupa nomor?
+              Gunakan tombol <strong>Lupa Nomor?</strong> di atas.
+            </p>
+          </div>
+        </section>
+
+        <!-- Loading Indicator -->
+        <section id="loading-section" class="loading-box hidden">
+          <div class="cosmic-spinner"></div>
+          <p>Memeriksa data kelulusan peserta...</p>
+        </section>
+
+        <!-- Card Screen Hasil (LULUS / TIDAK LULUS) -->
+        <section id="result-section" class="card result-card hidden">
+          <!-- Status Header Banner -->
+          <div id="status-banner" class="status-banner">
+            <div class="status-icon-wrapper">
+              <i id="status-icon" class="fa-solid"></i>
+            </div>
+            <h2 id="status-title">STATUS KELULUSAN</h2>
+            <p id="status-subtitle">SELEKSI OPEN RECRUITMENT UKM PRIMA 2026</p>
+          </div>
+
+          <!-- Body Hasil Detail -->
+          <div class="result-body">
+            <!-- Grid Detail Peserta -->
+            <div class="detail-grid">
+              <div class="detail-item">
+                <span class="detail-label">Nomor Pendaftaran</span>
+                <span id="res-nomor" class="detail-value">-</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Nama Lengkap</span>
+                <span id="res-nama" class="detail-value">-</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Program Studi</span>
+                <span id="res-prodi" class="detail-value">-</span>
+              </div>
+              <div class="detail-item">
+                <span class="detail-label">Status Seleksi</span>
+                <span id="res-status-badge" class="badge">-</span>
+              </div>
+            </div>
+
+            <!-- Kotak Pesan Dinamis (LULUS / TIDAK LULUS) -->
+            <div class="message-box">
+              <div class="message-header">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>Pesan Resmi Panitia ORIMA 2026</span>
+              </div>
+              <p id="res-pesan" class="message-text">
+                Pesan kelulusan akan ditampilkan di sini.
+              </p>
+            </div>
+
+            <!-- Tombol Aksi Result -->
+            <div class="result-actions">
+              <button type="button" id="btn-back" class="btn btn-outline">
+                <i class="fa-solid fa-arrow-left"></i> Cek Nama Lain
+              </button>
+              <button
+                type="button"
+                id="btn-print"
+                class="btn btn-success hidden-print">
+                <i class="fa-solid fa-print"></i> Cetak Bukti Hasil
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+          <p>
+            &copy; 2026 UKM PRIMA UNRAM - Kabinet UNI7Y. All rights reserved.
+          </p>
+        </footer>
+      </div>
     </div>
 
     <!-- ===================================================================
          MODAL PENCARIAN NOMOR PENDAFTARAN (LUPA NOMOR)
          =================================================================== -->
-    <div id="lookup-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-        <div class="modal-card">
-            <div class="modal-header">
-                <div class="modal-title-group">
-                    <div class="modal-icon-badge">
-                        <i class="fa-solid fa-id-card-clip"></i>
-                    </div>
-                    <div>
-                        <h3 id="modal-title" class="modal-title">Cek Nomor Pendaftaran</h3>
-                        <p class="modal-subtitle">Cari nama Anda untuk melihat nomor pendaftaran</p>
-                    </div>
-                </div>
-                <button type="button" id="btn-close-lookup" class="btn-close-modal" aria-label="Tutup Modal">
-                    <i class="fa-solid fa-xmark"></i>
-                </button>
+    <div
+      id="lookup-modal"
+      class="modal-backdrop hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title">
+      <div class="modal-card">
+        <div class="modal-header">
+          <div class="modal-title-group">
+            <div class="modal-icon-badge">
+              <i class="fa-solid fa-id-card-clip"></i>
             </div>
-
-            <div class="modal-body">
-                <div class="input-group">
-                    <label for="lookup-name-input">
-                        <i class="fa-solid fa-user-tag"></i> Ketik Nama Lengkap / Panggilan
-                    </label>
-                    <div class="input-wrapper search-wrapper">
-                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                        <input type="text" id="lookup-name-input" placeholder="Masukkan nama (Contoh: Sabila, Fauzan, Alya...)" autocomplete="off">
-                        <button type="button" id="btn-clear-lookup" class="btn-clear-input hidden" title="Hapus pencarian">
-                            <i class="fa-solid fa-circle-xmark"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div id="lookup-results-container" class="results-container">
-                    <div id="lookup-results-count" class="results-count-badge hidden">
-                        <i class="fa-solid fa-list-check"></i> Ditemukan <strong id="count-number">0</strong> peserta
-                    </div>
-
-                    <div id="lookup-results-list" class="results-list">
-                        <div class="empty-state">
-                            <i class="fa-solid fa-keyboard empty-icon"></i>
-                            <p>Ketikkan nama Anda di atas untuk menampilkan nomor pendaftaran.</p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <h3 id="modal-title" class="modal-title">
+                Cek Nomor Pendaftaran
+              </h3>
+              <p class="modal-subtitle">
+                Cari nama Anda untuk melihat nomor pendaftaran
+              </p>
             </div>
-
-            <div class="modal-footer">
-                <span class="modal-footer-note">
-                    <i class="fa-solid fa-shield-halved"></i> Data resmi ORIMA 2026
-                </span>
-                <button type="button" id="btn-close-lookup-footer" class="btn btn-secondary btn-sm">
-                    Tutup
-                </button>
-            </div>
+          </div>
+          <button
+            type="button"
+            id="btn-close-lookup"
+            class="btn-close-modal"
+            aria-label="Tutup Modal">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
         </div>
+
+        <div class="modal-body">
+          <div class="input-group">
+            <label for="lookup-name-input">
+              <i class="fa-solid fa-user-tag"></i> Ketik Nama Lengkap /
+              Panggilan
+            </label>
+            <div class="input-wrapper search-wrapper">
+              <i class="fa-solid fa-magnifying-glass search-icon"></i>
+              <input
+                type="text"
+                id="lookup-name-input"
+                placeholder="Masukkan nama (Contoh: Sabila, Fauzan, Alya...)"
+                autocomplete="off" />
+              <button
+                type="button"
+                id="btn-clear-lookup"
+                class="btn-clear-input hidden"
+                title="Hapus pencarian">
+                <i class="fa-solid fa-circle-xmark"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="lookup-results-container" class="results-container">
+            <div id="lookup-results-count" class="results-count-badge hidden">
+              <i class="fa-solid fa-list-check"></i> Ditemukan
+              <strong id="count-number">0</strong> peserta
+            </div>
+
+            <div id="lookup-results-list" class="results-list">
+              <div class="empty-state">
+                <i class="fa-solid fa-keyboard empty-icon"></i>
+                <p>
+                  Ketikkan nama Anda di atas untuk menampilkan nomor
+                  pendaftaran.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <span class="modal-footer-note">
+            <i class="fa-solid fa-shield-halved"></i> Data resmi ORIMA 2026
+          </span>
+          <button
+            type="button"
+            id="btn-close-lookup-footer"
+            class="btn btn-secondary btn-sm">
+            Tutup
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- Script JS -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
