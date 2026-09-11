@@ -1,47 +1,5 @@
 [
   {
-    "nomor_pendaftaran": "114",
-    "nama": "Kiki Amalia",
-    "prodi": "Ekonomi dan Bisnis"
-  },
-  {
-    "nomor_pendaftaran": "195",
-    "nama": "Syifa Fajrina",
-    "prodi": "Keguruan dan Ilmu Pendidikan"
-  },
-  {
-    "nomor_pendaftaran": "503",
-    "nama": "DINA MAWADDITA",
-    "prodi": "Hukum, Ilmu Sosial, dan Ilmu Politik"
-  },
-  {
-    "nomor_pendaftaran": "434",
-    "nama": "Desky Amellia Safitri",
-    "prodi": "Hukum, Ilmu Sosial, dan Ilmu Politik"
-  },
-  {
-    "nomor_pendaftaran": "000",
-    "nama": "Zianurrachman",
-    "prodi": "Pendidikan Bahasa dan Sastra Indonesia"
-  },
-  {
-    "nomor_pendaftaran": "999",
-    "nama": "fauzan hari ramdani",
-    "prodi": "Teknik Informatika"
-  },
-
-  {
-    "nomor_pendaftaran": "000",
-    "nama": "salsabila aulia",
-    "prodi": "Ilmu Hukum"
-  },
-
-  {
-    "nomor_pendaftaran": "0000",
-    "nama": "siti mutia",
-    "prodi": "Pendidikan Bahasa Inggris"
-  },
-  {
     "nomor_pendaftaran": "576",
     "nama": "Lalu Muhammad Naufal Arrasyid",
     "prodi": "S-1 Akuntansi"
@@ -513,7 +471,7 @@
   },
   {
     "nomor_pendaftaran": "077",
-    "nama": "khairunnisa",
+    "nama": "Khairunnisa",
     "prodi": "Pendidikan kimia"
   },
   {
@@ -619,7 +577,7 @@
   {
     "nomor_pendaftaran": "269",
     "nama": "Naria Fitri",
-    "prodi": "Pendidikan  Pancasila  dan Kewarganegaraan"
+    "prodi": "Pendidikan Pancasila dan Kewarganegaraan"
   },
   {
     "nomor_pendaftaran": "378",
@@ -847,6 +805,11 @@
     "prodi": "Akuntansi"
   },
   {
+    "nomor_pendaftaran": "329",
+    "nama": "Cindy Liani",
+    "prodi": "Ilmu Hukum"
+  },
+  {
     "nomor_pendaftaran": "231",
     "nama": "Arnisa mazwara",
     "prodi": "Pendidikan Bahasa dan sastra Indonesia"
@@ -890,6 +853,11 @@
     "nomor_pendaftaran": "016",
     "nama": "Siti Hajar",
     "prodi": "ilmu komunikasi"
+  },
+  {
+    "nomor_pendaftaran": "068",
+    "nama": "Azwa Naira",
+    "prodi": "budidaya perairan"
   },
   {
     "nomor_pendaftaran": "388",
@@ -1017,6 +985,11 @@
     "prodi": "Pendidikan Bahasa Inggris"
   },
   {
+    "nomor_pendaftaran": "503",
+    "nama": "DINA MAWADDITA",
+    "prodi": "Sosiologi"
+  },
+  {
     "nomor_pendaftaran": "166",
     "nama": "Hadinta Dwi Utami",
     "prodi": "Farmasi"
@@ -1110,6 +1083,11 @@
     "nomor_pendaftaran": "390",
     "nama": "Athaya Raysa Alam",
     "prodi": "Pendidikan Biologi"
+  },
+  {
+    "nomor_pendaftaran": "387",
+    "nama": "Nanda",
+    "prodi": "Ekonomi Pembangunan"
   },
   {
     "nomor_pendaftaran": "458",
@@ -1250,6 +1228,11 @@
     "nomor_pendaftaran": "313",
     "nama": "Fazila Fitriani",
     "prodi": "Akuntansi (S1)"
+  },
+  {
+    "nomor_pendaftaran": "014",
+    "nama": "Uidivi Avinkka",
+    "prodi": "Kedokteran"
   },
   {
     "nomor_pendaftaran": "300",
@@ -1532,8 +1515,8 @@
     "prodi": "manajemen"
   },
   {
-    "nomor_pendaftaran": "609",
-    "nama": "Shirain Firyal Qatrunnada",
-    "prodi": "Statistika"
+    "nomor_pendaftaran": "434",
+    "nama": "Desky Amellia Safitri",
+    "prodi": "Ilmu komunikasi"
   }
 ]
